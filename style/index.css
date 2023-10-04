@@ -1,1 +1,45 @@
-/* CSS stillerinizi buraya girin */
+h1 {
+  display: flex;
+  justify-content: center;
+  color: rgb(10, 9, 9);
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  background: white;
+}
+
+.nav-list {
+  background: white;
+  box-shadow: 0px 0px 10px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 3rem;
+}
+.nav-item a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition: all 200ms ease-in;
+}
+.intro {
+  display: flex;
+  text-align: center;
+}
+.img-container {
+  align-content: flex-start;
+}
+.btn-primary {
+  font-family: Montserrat, sans-serif;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 200ms ease-in;
+}
